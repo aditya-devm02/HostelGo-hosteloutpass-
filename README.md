@@ -54,10 +54,40 @@
 ## 📦 Installation & Setup  
 
 ### 1️⃣ Clone the Repository:  
-
+```bash
 git clone https://github.com/yourusername/hostelgo.git
 cd hostelgo
+```
 
+### 2️⃣ Install Dependencies:  
+```bash
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+```
+
+### 3️⃣ Configure MongoDB:  
+Update the `.env` file with your MongoDB URI.  
+
+### 4️⃣ Run the Servers:  
+```bash
+# Start backend
+cd backend
+npm start
+
+# Start frontend
+cd frontend
+npm start
+```
+
+🚀 **Your HostelGo system is now up and running!**  
+
+
+---
 
 ### Screenshots:
 Home Pgae:
@@ -80,3 +110,9 @@ Pending Outpass Page:
 ![Pending Outpass Page](https://github.com/github-arjav/College-Outpass-System/assets/104684401/aa5da0dd-b3ac-4e4f-acc7-b9372a717411)
 Outpass Detail Page:
 ![Outpass Detail Page](https://github.com/github-arjav/College-Outpass-System/assets/104684401/7c65c829-e292-44e3-96bb-6eebde54c4de)
+
+---
+
+## 💡 Contributing  
+We welcome contributions! Feel free to fork the repository and submit a pull request with your enhancements.  
+
